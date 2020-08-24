@@ -1,0 +1,25 @@
+.YT{
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0; 
+    padding-bottom: 20px;  
+    top: 0;
+    position: sticky;
+    background-color: white;
+    z-index: 1000;
+}
+
+.yt{
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.yt > .icon{
+    color: var(--yt-color);
+    font-size: 32px;
+}
+
+.yt > h2{
+    color: black
+}

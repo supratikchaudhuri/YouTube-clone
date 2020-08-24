@@ -1,0 +1,33 @@
+.sidebar {
+    flex: 0.2;
+    margin-top: 10px;
+    color: var(--yt-color-gray);
+    height: 100vh;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+    height: 40px
+}
+
+.sidebar::-webkit-scrollbar-button {
+	display: none;
+}
+
+
+.sidebar > hr{
+    margin: 7px 0;
+    background-color: #e5e5e5;
+    height: 1px;
+    border: none;
+}
+
+.sidebar > .links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sidebar > p{
+    padding-left : 20px
+}
+
