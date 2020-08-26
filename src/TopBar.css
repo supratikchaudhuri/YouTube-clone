@@ -1,0 +1,10 @@
+.topbar {
+	margin: 0 auto 0;
+	padding: 10px 25px 10px 0;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e5e5e5;
+	top: 0;
+	position: sticky;
+	background-color: rgba(255, 255, 255, 0.97);
+}

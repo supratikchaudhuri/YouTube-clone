@@ -1,0 +1,28 @@
+.searchbar {
+	display: flex;
+	align-items: center;
+	color: var(--yt-color-gray);
+	background-color: var(--yt-color-hover);
+	border: 1px solid #e5e5e5;
+	cursor: pointer;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.search-input {
+	line-height: 32px;
+	width: 600px;
+	font-size: 18px;
+	padding: 0 10px;
+	border: none;
+	border-right: 1px solid #e5e5e5;
+}
+
+.searchbar > .icon {
+	font-size: 22px !important;
+	margin: 2px 25px;
+}
+
+.searchbar > .icon:hover {
+	background-color: var(--yt-color-hover);
+}
