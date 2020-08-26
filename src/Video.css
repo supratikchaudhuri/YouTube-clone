@@ -1,0 +1,38 @@
+.video {
+	/* background-color: white; */
+	max-width: 290px;
+	cursor: pointer;
+}
+
+/* EVERYTHING COMMING FROM INLINE STYLING */
+/* .thumbnail {
+	background: url("https://pbs.twimg.com/media/D8owsL8XYAA8v7B.jpg") center no-repeat;
+	background-size: cover;
+	width: 290px;
+	height: 180px;
+} */
+
+.video-description {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 10px;
+}
+
+.avatar {
+	width: 35px !important;
+	height: 35px !important;
+	margin-right: 8px;
+}
+
+.description > .title {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.description > p {
+	color: gray;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 16px;
+}

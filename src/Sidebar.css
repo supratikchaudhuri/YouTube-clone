@@ -10,11 +10,10 @@
 }
 
 .sidebar::-webkit-scrollbar {
-	height: 40px;
+	display: none;
 }
 
 .sidebar::-webkit-scrollbar-button {
-	display: none;
 }
 
 .sidebar > hr {
