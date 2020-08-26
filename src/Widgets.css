@@ -2,6 +2,10 @@
 	display: flex;
 	align-items: center;
 	margin-left: 70px;
+	position: absolute;
+	top: 50%;
+	right: 3%;
+	transform: translateY(-50%);
 }
 
 .icons {

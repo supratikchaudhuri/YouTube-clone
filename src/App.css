@@ -15,6 +15,6 @@ body {
 	display: flex;
 }
 
-.app::-webkit-scrollbar-button {
+body::-webkit-scrollbar {
 	display: none;
 }

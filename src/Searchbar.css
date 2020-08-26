@@ -6,7 +6,11 @@
 	border: 1px solid #e5e5e5;
 	cursor: pointer;
 	max-width: 650px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
+	position: absolute;
+	top: 50%;
+	left: 38%;
+	transform: translate(-50%, -50%);
 }
 
 .search-input {
