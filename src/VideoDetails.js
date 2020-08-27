@@ -47,7 +47,7 @@ const VideoDetails = [
 		title: 'Joe Rogan Experience #1309 - Naval Ravikant',
 		chanel: 'PowerFull JRE',
 		views: '3.87M',
-		timeStamp: '34 weeks agoJun 4, 2019'
+		timeStamp: 'Jun 4, 2019'
 	},
 
 	{
