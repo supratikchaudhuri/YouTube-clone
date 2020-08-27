@@ -1,7 +1,7 @@
 import React from 'react';
 import './Feed.css';
 import Video from './Video';
-import VideoDetails from './VideoDetails';
+import VideoDetails from '../users/VideoDetails';
 
 function Vid(VideoDetails) {
 	return (
