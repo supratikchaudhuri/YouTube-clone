@@ -8,6 +8,7 @@ body {
 	--yt-color: #ff0000;
 	--yt-color-gray: #636060;
 	--yt-color-hover: rgb(248, 247, 247);
+	scroll-behavior: smooth;
 }
 
 .app {
