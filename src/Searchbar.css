@@ -5,18 +5,12 @@
 	background-color: var(--yt-color-hover);
 	border: 1px solid #e5e5e5;
 	cursor: pointer;
-	max-width: 650px;
-	/* margin: 0 auto; */
-	position: absolute;
-	top: 50%;
-	left: 38%;
-	transform: translate(-50%, -50%);
 }
 
 .search-input {
 	line-height: 32px;
-	width: 600px;
-	font-size: 18px;
+	width: 570px;
+	font-size: 17px;
 	padding: 0 10px;
 	border: none;
 	border-right: 1px solid #e5e5e5;

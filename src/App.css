@@ -8,13 +8,21 @@ body {
 	--yt-color: #ff0000;
 	--yt-color-gray: #636060;
 	--yt-color-hover: rgb(248, 247, 247);
-	position: relative;
 }
 
 .app {
+	position: relative;
+}
+
+.app > .container {
 	display: flex;
 }
 
 body::-webkit-scrollbar {
 	display: none;
+}
+
+.icon {
+	color: var(--yt-color-gray);
+	cursor: pointer;
 }

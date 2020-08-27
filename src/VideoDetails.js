@@ -106,7 +106,7 @@ const VideoDetails = [
 		id: 11,
 		avatar: 'https://yt3.ggpht.com/a/AATXAJzeKJHm-0X6-EjXfiWmI0eh70_pfPu38XYkfzaWAA=s900-c-k-c0xffffffff-no-rj-mo',
 		thumbnail: 'https://login.lyricallemonade.com/wp-content/uploads/unnamed-1-12.jif',
-		title: 'RLD ft. Marshmello, Polo G & Kid Laroi - Hate The Other Side (Official Audio)',
+		title: 'Juice WRLD ft. Marshmello, Polo G & Kid Laroi - Hate The Other Side (Official Audio)',
 		chanel: 'Juice WRLD',
 		views: '10M',
 		timeStamp: '2 months ago'
