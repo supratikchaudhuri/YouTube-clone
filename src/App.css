@@ -12,11 +12,11 @@ body {
 	scroll-behavior: smooth;
 }
 
-.app {
+.homepage {
 	position: relative;
 }
 
-.app > .container {
+.homepage > .container {
 	display: flex;
 }
 

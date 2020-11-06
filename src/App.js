@@ -1,21 +1,16 @@
 import React from 'react';
+import {BrowserRouter, Route} from "react-router-dom"
 import './App.css';
-import TopBar from './components/TopBar';
-import Sidebar from './components/Sidebar';
-import Hero from './components/Hero';
-
+import HomePage from "./pages/HomePage"
+import VideoPage from './pages/VideoPage';
 function App() {
 	return (
-		<div className="app">
-			<TopBar />
+		<BrowserRouter>
+			
+			<Route exact path="/" component={HomePage}/>
+			<Route exact path="/vid" component={VideoPage}/>
 
-			<div className="container">
-				{/* SIDEBAR */}
-				<Sidebar />
-				{/* HERO */}
-				<Hero />
-			</div>
-		</div>
+		</BrowserRouter>
 	);
 }
 
