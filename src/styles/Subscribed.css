@@ -1,0 +1,23 @@
+.subscribed {
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    font-weight: 400;
+    padding: 8px 25px ;   
+}
+
+.subscribed > .avatar{
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.subscribed  p{
+    font-size: 14px;
+    margin-left: 20px;
+    color: black
+}
+
+.subscribed:hover{
+    background-color: var(--yt-color-hover);
+}
+

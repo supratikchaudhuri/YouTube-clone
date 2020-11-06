@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import TopBar from './TopBar';
-import Sidebar from './Sidebar';
-import Hero from './Hero';
+import TopBar from './components/TopBar';
+import Sidebar from './components/Sidebar';
+import Hero from './components/Hero';
 
 function App() {
 	return (

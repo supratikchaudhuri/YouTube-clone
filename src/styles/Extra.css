@@ -1,0 +1,6 @@
+.extra > a{
+    text-decoration: none;
+    color: var(--yt-color-gray);
+    font-size: 14px;
+    font-weight: 500;
+}
