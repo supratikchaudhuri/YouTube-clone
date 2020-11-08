@@ -4,11 +4,11 @@ import YT from './YT';
 import Searchbar from './Searchbar';
 import Widgets from './Widgets';
 
-function TopBar() {
+function TopBar({handleSearch}) {
 	return (
 		<div className="topbar">
 			<YT />
-			<Searchbar />
+			<Searchbar handleSearch={handleSearch}/>
 			<Widgets />
 		</div>
 	);
