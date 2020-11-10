@@ -3,9 +3,10 @@ import '../styles/Feed.css';
 import Video from './Video';
 import VideoDetails from './VideoDetails';
 
-function Vid(VideoDetails) {
+function Vid(VideoDetails, index) {
 	return (
 		<Video
+			key={index}
 			avatar={VideoDetails.avatar}
 			thumbnail={VideoDetails.thumbnail}
 			title={VideoDetails.title}

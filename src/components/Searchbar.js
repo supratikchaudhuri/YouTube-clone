@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import '../styles/Searchbar.css';
 import SearchIcon from '@material-ui/icons/Search';
+import { SearchContext } from "../context/searchContext"
 
-function Searchbar({handleSearch}) {
+function Searchbar() {
 
 	const [input, setInput] = useState("");
-
+	const { handleSearch } = useContext(SearchContext);
+	
 	return (
 		<form onSubmit={() => handleSearch(input)}>
 			<div className="searchbar">

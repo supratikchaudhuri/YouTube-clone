@@ -12,7 +12,7 @@ function Video({ avatar, thumbnail, title, chanel, views, timeStamp }) {
 		width: '290px',
 		height: '180px'
 	};
-	console.log(thumbnailDiv);
+	// console.log(thumbnailDiv);
 
 	return (
 		<div className="video">
