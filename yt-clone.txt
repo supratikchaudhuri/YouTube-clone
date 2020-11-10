@@ -1,1 +1,5 @@
-sidebar scrollbar issues
+to do 
+
+
+videoplayer
+channel componnent on searches

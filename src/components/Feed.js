@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Feed.css';
 import Video from './Video';
-import VideoDetails from './VideoDetails';
+import VideoDetails from '../data/VideoDetails';
 
 function Vid(VideoDetails, index) {
 	return (

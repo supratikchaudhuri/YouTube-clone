@@ -7,10 +7,6 @@
 	cursor: pointer;
 }
 
-form { 
-
-}
-
 .search-input {
 	line-height: 32px;
 	width: 570px;
@@ -23,7 +19,7 @@ form {
 	outline: none;
 }
 
-.searchbar > .icon {
+.searchbar .icon {
 	font-size: 22px !important;
 	margin: 2px 25px;
 }

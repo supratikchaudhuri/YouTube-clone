@@ -12,7 +12,7 @@ export const SearchContextProvider = (props) => {
         const response = await youtube.get("search", {
             params : {
                 part: "snippet",
-                maxResults : 5,
+                maxResults : 10,
                 key: yt_api,
                 q : input
             }

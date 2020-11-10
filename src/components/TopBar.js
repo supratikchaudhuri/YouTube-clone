@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import '../styles/TopBar.css';
 import YT from './YT';
 import Searchbar from './Searchbar';
 import Widgets from './Widgets';
 
-
 function TopBar() {
 
 	return (
 		<div className="topbar">
-			<YT />
+			<YT/>
 			<Searchbar/>
 			<Widgets />
 		</div>

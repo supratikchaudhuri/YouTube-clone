@@ -18,7 +18,7 @@ function App() {
 			
 			<Route exact path="/" component={HomePage}/>
 			<Route exact path="/vid" component={VideoPage}/>
-			<Route exact path="/search" component={SearchedVideos}/>
+			<Route exact path="/search/:input" component={SearchedVideos}/>
 
 		</BrowserRouter>
 		</SearchContextProvider>
