@@ -38,3 +38,10 @@ body::-webkit-scrollbar {
 	color: var(--yt-color-gray);
 	cursor: pointer;
 }
+
+.video-page {
+	display: flex;
+	height: 100vh;
+	padding: 25px 55px 0;
+	background-color: var(--yt-color-hover);
+}

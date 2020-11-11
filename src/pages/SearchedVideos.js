@@ -2,6 +2,11 @@ import React, { useContext } from 'react'
 import Sidebar from "../components/Sidebar"
 import SearchResult from "../components/SearchResult";
 import {SearchContext} from "../context/searchContext";
+import { Link } from 'react-router-dom';
+
+const linkStyle = {
+	textDecoration : "none",
+}
 
 function SearchedVideos() {
     
@@ -12,8 +17,8 @@ function SearchedVideos() {
             // if(snippet.id.kind === "youtube#channel")    show small circular thumbnail
             suggestedVideos.map(video => {
                 return (
+                    <Link to={`/vid`} style ={linkStyle} key = {video.etag} >
                     <SearchResult
-                        key = {video.etag} 
                         type = {video.id.kind === "youtube#channel" ? "channel" : ""}
                         thumbnail = {video.snippet.thumbnails.medium.url}
                         videoTitle = {video.snippet.title}
@@ -22,6 +27,7 @@ function SearchedVideos() {
                         channel = {video.snippet.channelTitle}
                         description = {video.snippet.description.substring(0, 100) + "..."}
                     />
+                    </Link>
                 )
             })
         )
