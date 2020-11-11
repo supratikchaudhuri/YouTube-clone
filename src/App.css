@@ -44,4 +44,5 @@ body::-webkit-scrollbar {
 	height: 100vh;
 	padding: 25px 55px 0;
 	background-color: var(--yt-color-hover);
+	overflow-y: scroll;
 }

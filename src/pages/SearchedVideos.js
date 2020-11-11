@@ -17,7 +17,7 @@ function SearchedVideos() {
             // if(snippet.id.kind === "youtube#channel")    show small circular thumbnail
             suggestedVideos.map(video => {
                 return (
-                    <Link to={`/vid`} style ={linkStyle} key = {video.etag} >
+                    <Link to="/vid" key = {video.etag} style={linkStyle}>
                     <SearchResult
                         type = {video.id.kind === "youtube#channel" ? "channel" : ""}
                         thumbnail = {video.snippet.thumbnails.medium.url}

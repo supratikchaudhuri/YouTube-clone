@@ -10,9 +10,7 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 function VideoPlayer() {
 
     const {selectedVideo} = useContext(SearchContext);
-    console.log(selectedVideo);
     const videoSrc = `https://www.youtube.com/embed/${selectedVideo.id.videoId}`;
-    console.log(videoSrc);
 
     return (
         <div  className="video-player">
