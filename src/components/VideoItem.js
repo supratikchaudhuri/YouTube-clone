@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/VideoItem.css"
-import { Redirect } from 'react-router-dom';
 
 function VideoItem({video, onVideoSelect}) {
   if(!video){

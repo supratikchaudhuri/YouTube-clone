@@ -14,7 +14,6 @@ function SearchedVideos() {
 
     const renderSuggestedVideos = () => {
         return (
-            // if(snippet.id.kind === "youtube#channel")    show small circular thumbnail
             suggestedVideos.map(video => {
                 return (
                     <Link to="/vid" key = {video.etag} style={linkStyle}>

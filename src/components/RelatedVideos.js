@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/RelatedVideos.css";
 import VideoItem from "./VideoItem";
-import { Redirect } from 'react-router-dom';
 
 function RelatedVideos( {suggestedVideos, onVideoSelect} ) {
 

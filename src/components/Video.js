@@ -4,7 +4,6 @@ import { Avatar } from '@material-ui/core';
 
 function Video({ avatar, thumbnail, title, chanel, views, timeStamp }) {
 	const imgUrl = { thumbnail };
-	//console.log(imgUrl.thumbnail);
 
 	const thumbnailDiv = {
 		background: 'url(' + imgUrl.thumbnail + ') center no-repeat',
@@ -12,7 +11,6 @@ function Video({ avatar, thumbnail, title, chanel, views, timeStamp }) {
 		width: '290px',
 		height: '180px'
 	};
-	// console.log(thumbnailDiv);
 
 	return (
 		<div className="video">

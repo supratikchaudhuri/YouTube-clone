@@ -1,7 +1,6 @@
 import React from 'react'
 import "../styles/Subscriptions.css"
 import Subscribed from "./Subscribed"
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 function Subscriptions() {
     return (
