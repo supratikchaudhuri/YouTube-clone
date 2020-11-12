@@ -2,22 +2,22 @@ import React from 'react'
 import "../styles/SearchResult.css";
 import Avatar from '@material-ui/core/Avatar';
 
-function SearchResult({type, thumbnail, videoTitle, views, timeStamp, channel, description}) {
+function SearchResult({type, video, onVideoSelect}) {
 
     return (
-        <div className="search-item">
+        <div className="search-item" onClick={() => onVideoSelect(video)}>
         <div className={`thumbnail${type}`}>
-            <img src={thumbnail} alt="thumbnail"/>
+            <img src={video.snippet.thumbnails.medium.url} alt="thumbnail"/>
         </div>
             
             <div className="details">
-                <h3>{videoTitle}</h3>
-                <p className="gray small">{views} • {timeStamp}</p>
+                <h3>{video.snippet.title}</h3>
+                <p className="gray small">{"123123"} • {video.snippet.publishedAt.substring(0, 10)}</p>
                 <div className="channel">
                     <Avatar className="avatar"/>
-                    <p className="gray small">{channel}</p>
+                    <p className="gray small">{video.snippet.channelTitle}</p>
                 </div>
-                <p className="gray">{description}</p>
+                <p className="gray">{video.snippet.description.substring(0, 100) + "..."}</p>
             </div>
         </div>
     )

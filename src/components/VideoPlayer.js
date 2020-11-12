@@ -1,15 +1,18 @@
-import React, { useContext } from 'react';
-import {SearchContext} from "../context/searchContext";
+import React from 'react';
 import "../styles/VideoPlayer.css";
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import ThumbDownIcon from '@material-ui/icons/ThumbDown';
 import ShareIcon from '@material-ui/icons/Share';
 import PlaylistAddIcon from '@material-ui/icons/PlaylistAdd';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import { Redirect } from 'react-router-dom';
 
-function VideoPlayer() {
+function VideoPlayer({selectedVideo}) {
 
-    const {selectedVideo} = useContext(SearchContext);
+    if(!selectedVideo){
+        return <div>VideoPlayer.js Loading...</div>
+    }
+
     const videoSrc = `https://www.youtube.com/embed/${selectedVideo.id.videoId}`;
 
     return (

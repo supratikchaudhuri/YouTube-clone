@@ -1,13 +1,14 @@
 import React from 'react'
 import "../styles/VideoItem.css"
+import { Redirect } from 'react-router-dom';
 
-function VideoItem({video}) {
+function VideoItem({video, onVideoSelect}) {
   if(!video){
-    return <div>Loading...</div>
+    return <div>VideoItem.js Loading...</div>
   }
   else{
     return (
-      <div className="video-item">
+      <div className="video-item" onClick={() => onVideoSelect(video)}>
         <div className="thumbnail">
           <img src={video.snippet.thumbnails.medium.url} alt="thumbnail"/>
         </div>
@@ -24,21 +25,3 @@ function VideoItem({video}) {
 
 export default VideoItem
 
-
-
-
-// import React from "react";
-// import { Grid, Paper, Typography } from "@material-ui/core";
-
-// export default ({ video, onVideoSelect }) => {
-//   return (
-//     <Grid item xs={12}>
-//       <Paper style={{ display: "flex", alignItems: "center", cursor: "pointer" }} onClick={() => onVideoSelect(video)} >
-//         <img style={{ marginRight: "20px" }} alt="thumbnail" src={video.snippet.thumbnails.medium.url} />
-//         <Typography variant="subtitle1">
-//           <b>{video.snippet.title}</b>
-//         </Typography>
-//       </Paper>
-//     </Grid>
-//   );
-// } 

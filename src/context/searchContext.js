@@ -22,6 +22,7 @@ export const SearchContextProvider = (props) => {
     }
     
     const onVideoSelect = (video) => {
+        console.log("onVideoSelect is called!");
         setSelectedVideo(video);
     }
 
