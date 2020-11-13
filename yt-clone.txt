@@ -1,5 +1,4 @@
 to do 
 
-
-videoplayer
-channel componnent on searches
+AUTHEMTICATION
+home page searches
