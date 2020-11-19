@@ -2,3 +2,7 @@ to do
 
 AUTHEMTICATION
 home page searches
+
+channel page
+user page after login
+ 
