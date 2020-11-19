@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
 .video-page {
 	display: flex;
 	height: 100vh;
-	padding: 25px 55px 0;
+	padding: 25px 95px 0;
 	background-color: var(--yt-color-hover);
 	overflow-y: scroll;
 }

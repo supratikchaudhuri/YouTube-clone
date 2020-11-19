@@ -16,7 +16,7 @@ function VideoPlayer({selectedVideo}) {
 
     return (
         <div  className="video-player">
-            <iframe width="940" height="500" src={videoSrc} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="885" height="500" src={videoSrc} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <h3>{selectedVideo.snippet.title}</h3>
             <div className="extra">
                 <p>Views • {selectedVideo.snippet.publishedAt.substring(0, 10)}</p>
